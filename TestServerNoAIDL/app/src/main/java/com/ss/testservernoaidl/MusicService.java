@@ -8,7 +8,6 @@ import android.content.res.AssetFileDescriptor;
 import android.content.res.AssetManager;
 import android.media.MediaPlayer;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
 import android.util.Log;
 
 import com.ss.testservernoaidl.simulateAIDL.AMusicStub;
@@ -30,7 +29,6 @@ public class MusicService extends Service {
 
   }
 
-  @Nullable
   @Override
   public IBinder onBind(Intent intent) {
     Log.e("mss", "mss onBind......");

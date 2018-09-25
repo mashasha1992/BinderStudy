@@ -1,5 +1,6 @@
 package com.ss.testclient;
 
+import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -7,12 +8,11 @@ import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.ss.testserver.IMusicInterface;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
   private IMusicInterface musicInterface;
 
