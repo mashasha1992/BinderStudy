@@ -100,7 +100,6 @@ public abstract class AMusicStub extends Binder implements IMusicInterface {
     }
   }
 
-  static final int TRANSACTION_basicTypes = (IBinder.FIRST_CALL_TRANSACTION + 0);
   static final int TRANSACTION_play = (IBinder.FIRST_CALL_TRANSACTION + 1);
   static final int TRANSACTION_pause = (IBinder.FIRST_CALL_TRANSACTION + 2);
 
